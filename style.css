@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    position: sticky;
+}
+
+.navContainer img{
+    height: 38px;
+    margin: 0 15px 0 200px
+}
+
+.navContainer p{
+    font-size: 26px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.model{
+    height: 150px;
+    width: 280px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* border: 1px solid #cfaaaa; */
+    background: white;
+    padding: 10px 20px 20px;
+    box-shadow: 0 0 0 4px rgba(0,0,0,.1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.model button{
+    height: 40px;
+    width: 200px;
+    margin-left: 13%;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.model button:hover{
+   border: 1px solid black ; 
+}
+
+.gamePage{
+   filter: blur(3px);
+}
+
+.gameStat{
+    display: flex;
+    margin-left: 190px;
+    margin-top: 2px;
+}
+
+.gameStat li{
+    height: 80px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    margin: 0px 2px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(244, 31, 244);
+    color: white;
+    margin-top: 4px;
+}
+
+.header p{
+    font-size: 26px;
+}
+
+.color-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,100px);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.color-container div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.footer-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: relative;
+    top: 37px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-footer{
+    margin-left: 40px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.right-footer img{
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+}

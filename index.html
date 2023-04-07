@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KOLOR : play your favourite color block game</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navContainer">
+		<img src="img/logo.png" alt="logo">
+		<p>KOLOR</p>
+	</nav>
+	<section id="kolor-start" class="model">
+		<p>Try to guess the <strong>KOLOR</strong>
+			 as fast as possible!</p>
+		<button id="start-button" onclick="login()">START!</button>	
+	</section>
+	<main class="gamePage" id="gamePage">
+	    <section class="kolor-game" id="gameBox">
+	    	<ul class="gameStat">
+	    		<li>Time</li>
+	    		<li>Round</li>
+	    		<li>Score</li>
+	    		<li>Best</li>
+	    	</ul>
+	    	<div id="header" class="header">
+	    		<p>What <strong>COLOR</strong> is This? </p>
+	    	</div>
+	    </section>
+	    <section class="color-container">
+	    	<div class="color-circle" id="0"></div>
+	    	<div class="color-circle" id="1"></div>
+	    	<div class="color-circle" id="2"></div>
+	    	<div class="color-circle" id="3"></div>
+	    </section>
+	</main>
+	<footer class="footer-container">
+		<section class="left-footer">
+			<strong>KOLOR</strong> © 2021 by 
+			<strong>moro</strong>(alterbroe)
+		</section>
+		<section class="right-footer">
+			<img src="img/footer-img.png" alt="footer-img">
+		</section>
+	</footer>
+</body>
+<script src="script.js"></script>
+</html>
